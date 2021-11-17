@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="illustrated-content regular">
+            <div id="left">
+                <div class="contact">
+                    <h1 style="color: white;">Contact Us</h1>
+                    <form action="">
+                        <div>
+                            <input type="text" id="name" name="name" placeholder="Name">
+                        </div>
+                        <div>
+                            <input type="email" value="valeur" id="email" name="email" placeholder="Email">
+                        </div>
+                        <div>
+                            <textarea id="message" name="message" placeholder="Message" style="height:150px"></textarea>
+                        </div>
+                        <input type="submit" value="Submit">
+                        <p id="successMsg">Votre formulaire a été bien soumise</p>
+                        <p id="errorMsg">Vos mots de passe ne correspondent pas</p>
+                    </form>
+                    <div class="circle-top"></div>
+                    <div class="circle-bottom"></div>
+                </div>
+            </div>
+            <div id="right">
+                <img src="MicrosoftTeams-image.png" alt="Mon image 1" />
+            </div>
+        </div>
+    </div>
+    <script src="test.js"></script>
+</body>
+
+</html>
